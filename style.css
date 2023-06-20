@@ -14,13 +14,10 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
 }
 
-main {
-    display: grid;    /* css grid 사용 */
-    grid-template-columns: 40% 60%; /* 왼쪽 40%, 오른쪽 60% */
-    margin-top: 3rem;
+main {margin-top: 3rem;
 }
 
 header {
@@ -51,6 +48,24 @@ i {
     margin-right: 0.5rem;    /* SNS 아이콘 오른쪽 여백 */
 }
 
-#mainLeft {
-    border-right: 1px solid lightgrey;
+section {
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 2rem;
+}
+
+section h2 {
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 2rem;
+}
+
+#suntrackingmodule {
+    width: 600px;
+}
+
+
+
+footer{
+    margin-left: 20px;
+    font-weight: bold;
+    padding-bottom: 1rem;
 }
