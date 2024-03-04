@@ -7,6 +7,11 @@ body {
     font-size:14px;     /* 글자 크기 */
 }
 
+img {
+    width: 30vw;
+    height:auto;
+}
+
 h1 {
     font-size: 3rem;    /* 글자 크기 */
     padding-top: 1rem;   /* 위쪽 패딩 */
